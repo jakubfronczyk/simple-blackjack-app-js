@@ -1,0 +1,28 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image:url(blackjack-wool.jpg);
+    background-size: cover;
+    color:white;
+    font-weight:bold;
+    font-size:2rem;
+}
+h1{
+    color: goldenrod;
+}
+#message-el{
+    font-style: italic;
+}
+button{
+    color: #016f32;
+    background-color: goldenrod;
+    padding: 1rem 2rem;
+    transition: 0.4s;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    font-size: 2rem;
+}
+button:hover{
+    background-color:darkgoldenrod;
+}
