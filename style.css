@@ -13,6 +13,13 @@ h1{
 #message-el{
     font-style: italic;
 }
+.btn-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left:40%;
+    padding-right:40%;
+}
 button{
     color: #016f32;
     background-color: goldenrod;
@@ -22,6 +29,7 @@ button{
     border: none;
     border-radius: 3px;
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 button:hover{
     background-color:darkgoldenrod;
